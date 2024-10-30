@@ -1,0 +1,98 @@
+.metamasterseo-indicator {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.metamasterseo-indicator.good {
+    color: green;
+}
+
+.metamasterseo-indicator.poor {
+    color: orange;
+}
+
+.metamasterseo-indicator.bad {
+    color: red;
+}
+
+.metamasterseo-full-width {
+    width: 100%;
+}
+
+.metamasterseo-preview {
+    margin-top: 20px;
+}
+
+.google-preview,
+.facebook-preview,
+.twitter-preview {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+
+.google-preview-title,
+.facebook-preview-title,
+.twitter-preview-title {
+    font-size: 18px;
+    color: #1a0dab;
+}
+
+.google-preview-url {
+    font-size: 14px;
+    color: #006621;
+}
+
+.google-preview-description,
+.facebook-preview-description,
+.twitter-preview-description {
+    font-size: 13px;
+    color: #545454;
+}
+
+.facebook-preview-image,
+.twitter-preview-image {
+    max-width: 150px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#metamasterseo-tabs {
+    margin-top: 20px;
+}
+
+#metamasterseo-tabs ul {
+    list-style: none;
+    padding: 0;
+}
+
+#metamasterseo-tabs ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#metamasterseo-tabs ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+#metamasterseo-tabs ul li a:hover,
+#metamasterseo-tabs ul li.ui-tabs-active a {
+    background: #e1e1e1;
+}
+
+#metamasterseo-tabs div {
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+}
+
+#external-links-warning {
+    display: none;
+    color: red;
+    font-weight: bold;
+}

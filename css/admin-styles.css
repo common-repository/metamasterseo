@@ -1,0 +1,45 @@
+.admin-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.admin-wrap h1 {
+    margin-bottom: 20px;
+}
+
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.nav-tab {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.nav-tab-active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.form-table th {
+    width: 150px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.form-table td {
+    padding: 10px;
+}
+
+.button {
+    margin-top: 10px;
+}
